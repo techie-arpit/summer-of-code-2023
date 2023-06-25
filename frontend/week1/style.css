@@ -1,0 +1,474 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cambay', sans-serif;
+    /* background-color: pink; */
+}
+
+.page1 {
+    background: linear-gradient(rgba(74, 153, 222, 0.2), #ffffff);
+    height: 100vh;
+    width : 100vw;
+
+    aspect-ratio : 16/9;
+}
+
+/* NavBar Styling Starts here */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 15%;
+}
+
+.nav-logo {
+    margin: 10px 30px;
+    width: 20%;
+    /* height : 100%; */
+    /* width : 10%; */
+}
+
+
+.nav-logo-img img {
+    margin: 15px 30px;
+    /* height : 20%; */
+    width: 50%;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10%;
+}
+
+.nav-menu a {
+    text-decoration: None;
+    display: block-inline;
+    color: black;
+    padding: 2px 40px;
+    font-size: 1.5vw;
+}
+
+/* Styling of below navbar portion of page 1 starts here */
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 85%;
+}
+
+.home-left-arrow {
+    width: 5%;
+    aspect-ratio: 1/1;
+    background-color: #4a99d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-left-arrow img {
+    width: 60%;
+    height: 60%;
+}
+
+.home-image {
+    height: 100%;
+    width: 60%;
+    /* display : block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-image img {
+    width: 100%;
+
+}
+
+.home-right-arrow {
+    width: 5%;
+    aspect-ratio: 1/1;
+    background-color: #4a99d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-right-arrow img {
+    width: 60%;
+    height: 60%;
+}
+
+/* Page 1 is ready */
+
+
+/* Styling For page 2 starts here */
+
+
+.page2 {
+    height: 150vh;
+    width: 100%;
+    position: relative;
+    /* background-color : blue;; */
+}
+
+.page2-heading {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    /* font-weight : 600;
+     */
+     font-size : 2vw;
+}
+
+.page2-box1{
+    left : 55%;
+    top : 10%;
+    position : absolute;
+    width : 25%;
+    display : flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+}
+
+.page2-box1-img{
+    display : flex;
+    width : 60%;
+    justify-content : center;
+    position : relative;
+    align-self : center;
+    height : 20%;
+}
+
+.page2-box1-img img{
+    height : 10%;
+    width : 100%;
+}
+
+.page2-box1-content{
+    height : 50%;
+    margin-top : 5%;
+    align-self : center;
+    width : 80%;
+}
+
+.page2-box1-content-title{
+    font-size : 1.7vw;
+    font-weight : 500;
+}
+
+.page2-box1-content-text{
+    font-size : 1vw;
+}
+
+.page2-box1-footer{
+    width : 80%;
+    align-self : center;
+    color : #4a99d3;
+    height : 15%;
+}
+
+
+
+.page2-box2{
+    left : 15%;
+    top : 30%;
+    position : absolute;
+    width : 25%;
+    display : flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+}
+
+.page2-box2-img{
+    display : flex;
+    width : 60%;
+    justify-content : center;
+    position : relative;
+    align-self : center;
+    height : 20%;
+}
+
+.page2-box2-img img{
+    height : 10%;
+    width : 100%;
+}
+
+.page2-box2-content{
+    height : 50%;
+    margin-top : 5%;
+    align-self : center;
+    width : 80%;
+}
+
+.page2-box2-content-title{
+    font-size : 1.7vw;
+    font-weight : 500;
+}
+
+.page2-box2-content-text{
+    font-size : 1vw;
+}
+
+.page2-box2-footer{
+    width : 80%;
+    align-self : center;
+    color : #4a99d3;
+    height : 15%;
+}
+
+
+.page2-box3{
+    left : 55%;
+    top : 55%;
+    position : absolute;
+    width : 25%;
+    display : flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+}
+
+.page2-box3-img{
+    display : flex;
+    width : 60%;
+    justify-content : center;
+    position : relative;
+    align-self : center;
+    height : 20%;
+}
+
+.page2-box3-img img{
+    height : 10%;
+    width : 100%;
+}
+
+.page2-box3-content{
+    height : 50%;
+    margin-top : 5%;
+    align-self : center;
+    width : 80%;
+}
+
+.page2-box3-content-title{
+    font-size : 1.7vw;
+    font-weight : 500;
+}
+
+.page2-box3-content-text{
+    font-size : 1vw;
+}
+
+.page2-box3-footer{
+    width : 80%;
+    align-self : center;
+    color : #4a99d3;
+    height : 15%;
+}
+
+
+/* Page 3 styling starts here */
+
+.page3 {
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(74, 153, 222, 0.2);
+    /* opacity : 0.2; */
+}
+
+.page3-title {
+    /* margin-top : 30%; */
+    padding-top: 5%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #4a99d3;
+}
+
+.page3-content {
+    /* background-color : black; */
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page3-bold {
+    font-size: 1.7vw;
+    font-weight: 700;
+}
+
+.page3-content-image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.page3-box {
+    width: 20%;
+    height: 100%;
+}
+
+
+.page3-content-text {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.page3-create {
+    height: 30%;
+}
+
+.page3-get {
+    height: 30%;
+}
+
+.page3-enjoy {
+    height: 30%;
+}
+
+.page3-nb {
+    font-size: 1.2vw;
+}
+
+/* Page4 styling starts here */
+
+.page4 {
+    height: 100vh;
+
+}
+
+.page4-upper {
+    height: 85%;
+}
+
+.page4-footer {
+    height: 15%;
+    background-color: #4a99d3;
+    display: flex;
+    align-items: center;
+}
+
+.page4-footer-logo {
+    width: 20%;
+    height: 70%;
+    /* aspect-ratio: 2/1; */
+    margin-left: 10%;
+}
+
+.page4-footer-logo img {
+    width: 100%;
+    /* height : 100%; */
+    aspect-ratio: 3/1;
+
+}
+
+.page4-upper-heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.page4-upper-below {
+    position: absolute;
+    /* background-color : black; */
+    height: 66%;
+    width: 100%;
+    display: flex;
+}
+
+.page4-upper-below-left {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.page4-upper-below-right {
+    width: 50%;
+    height: 100%;
+}
+
+.page4-upper-below-left-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.page4-upper-below-left-bg {
+    height: 70%;
+    width: 45%;
+    background-color: rgba(74, 153, 211, 0.2);
+    position: absolute;
+    z-index: -1;
+}
+
+.page4-upper-below-right-quote {
+    height: 10%;
+    padding-top: 5%;
+    /* padding-left : 10%; */
+    font-size: 2rem;
+    position: relative;
+}
+
+.page4-upper-below-right-quote img {
+    height: 100%;
+}
+
+.page4-upper-below-right-text {
+    font-size: 1.2vw;
+    margin-top: 5%;
+}
+
+.page4-upper-below-right-name {
+    margin-top: 10%;
+    font-size: 1.2vw;
+}
+
+.page4-caraousel {
+    position: absolute;
+    right: 10vw;
+    width: 10vw;
+    /* height : 7.5vh; */
+    aspect-ratio: 2/1;
+    /* margin-bottom : 50vh; */
+    /* padding-bottom : 50vh;
+     */
+    bottom: 5vh;
+    display: flex;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.08);
+}
+
+.page4-caraousel-left {
+    height: 100%;
+    width: 50%;
+    /* aspect-ratio : 1/1; */
+    background-color: #4a99d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page4-caraousel-right {
+    height: 100%;
+    width: 50%;
+    /* aspect-ratio : 1/1; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
